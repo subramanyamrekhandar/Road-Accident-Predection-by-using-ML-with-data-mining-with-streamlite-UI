@@ -1,0 +1,12 @@
+Create A Conda Environment and cofigures to activate the Environment ( Anaconda Navigator)
+--> conda create -n yolo_env python=3.9
+--> conda activate yolo_Newenv
+
+
+Install necessary Libraries 
+--> pip install streamlit 
+--> pip install git+https://github.com/opengeos/leafmap
+-->  pip install -r requirements.txt
+
+Run App
+--> streamlit run streamlit_app.py
